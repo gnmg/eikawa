@@ -13,8 +13,6 @@
     // validation expected data exists
     if(!isset($_POST['name-last']) ||
            !isset($_POST['name-first']) ||
-           !isset($_POST['name-last-kana']) ||
-           !isset($_POST['name-first-kana']) ||
            !isset($_POST['phone-number']) ||
            !isset($_POST['email']) ||
            !isset($_POST['email-check']) ||
@@ -23,8 +21,6 @@
     }
     $first_name = $_POST['name-first']; // required
     $last_name = $_POST['name-last']; // required
-    $first_name_kana = $_POST['name-first-kana']; // required
-    $last_name_kana = $_POST['name-last-kana']; // required
     $school_year = $_POST['school-year']; // required
     $email_from = $_POST['email']; // required
     $telephone = $_POST['phone-number']; // not required
@@ -55,8 +51,6 @@
     }
     $email_message .= "First Name: ".clean_string($first_name)."\n";
     $email_message .= "Last Name: ".clean_string($last_name)."\n";
-    $email_message .= "First Name Kana: ".clean_string($first_name_kana)."\n";
-    $email_message .= "Last Name Kana: ".clean_string($last_name_kana)."\n";
     $email_message .= "School Year: ".clean_string($school_year)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
