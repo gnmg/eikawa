@@ -18,6 +18,23 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Style file for validation tooltip -->
 	<link rel="stylesheet" href="css/validationEngine.css">
+
+	<!-- Google recaptcha-->
+	<script src="https://www.google.com/recaptcha/api.js?render=6LfpmwgaAAAAABUbmR-qxC24rUnzdyKoVZ2gcgKX"></script>
+<script>
+    grecaptcha.ready(function() {
+    // do request for recaptcha token
+    // response is promise with passed token
+        grecaptcha.execute('6LfpmwgaAAAAABUbmR-qxC24rUnzdyKoVZ2gcgKX', {action:'validate_captcha'})
+                  .then(function(token) {
+            // add token value to form
+            document.getElementById('g-recaptcha-response').value = token;
+        });
+    });
+</script>
+
+
+
 	<!-- Facebook Pixel Code -->
   <script>
     ! function(f, b, e, v, n, t, s) {
@@ -270,7 +287,8 @@
 			<p class="contact__text">以下のフォームに必要事項をご入力下さい。
 				<br>また、ご入力いただく前に<a href="privacy.html" target="_blank">プライバシーポリシー</a>をお読みください。</p>
 			<!-- Contact form - START -->
-			<form class="contact__form" method="POST" action="contact3.php" name="contact-form">
+			<form class="contact__form" method="POST" action="contact3.php" name="contact-form" input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" input type="hidden" name="action" value="validate_captcha">
+				>
 				<!-- Contact form item - START -->
 				<div class="contact__item  contact-item">
 					<!-- Contact item label - START -->
