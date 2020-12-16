@@ -13,7 +13,8 @@
     // validation expected data exists
     if(	　	!isset($_POST['name-last']) ||
            !isset($_POST['name-first']) ||
-           
+           !isset($_POST['name-last-kana']) ||
+           !isset($_POST['name-first-kana']) ||
            !isset($_POST['phone-number']) ||
            !isset($_POST['email']) ||
            !isset($_POST['email-check']) ||
