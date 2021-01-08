@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -63,3 +64,4 @@
 /></noscript>
   <!-- End Facebook Pixel Code -->
 </head>
+?>

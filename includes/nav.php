@@ -1,3 +1,4 @@
+<?php
 <!-- Header - START -->
 <header class="main-header">
 			<!-- Main logo area - START -->
@@ -48,3 +49,4 @@
 			</div>
 		</header>
 		<!-- Header - END -->
+		?>

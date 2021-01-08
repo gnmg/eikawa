@@ -1,3 +1,4 @@
+<?php
 <a name="contact">
 				<section class="contact">
 			</a>
@@ -150,3 +151,5 @@
 			<!-- Contact form - END -->
 			</section>
 			<!-- Contact us section - END -->
+
+			?>

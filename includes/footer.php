@@ -1,3 +1,4 @@
+<?php
 <footer class="main-footer">
 			<!-- Copyright text - START -->
 			<p class="footer__copyright">&copy; All rights reserved | グリーンズ英会話</p>
@@ -21,3 +22,4 @@
 
   gtag('config', 'UA-806156-14');
 </script>
+?>
