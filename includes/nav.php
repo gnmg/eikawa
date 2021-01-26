@@ -1,5 +1,3 @@
-<?php
-<!-- Header - START -->
 <header class="main-header">
 			<!-- Main logo area - START -->
 			<div class="main-header__logo-area"> <a class="main-header__logo" href="#replace">グリーンズ英語教室</a>
@@ -49,4 +47,3 @@
 			</div>
 		</header>
 		<!-- Header - END -->
-		?>
