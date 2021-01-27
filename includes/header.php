@@ -13,6 +13,7 @@
 	<!-- Style files -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tailwind.css">
 	<!-- Style file for validation tooltip -->
 	<link rel="stylesheet" href="css/validationEngine.css">
 
