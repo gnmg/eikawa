@@ -9,7 +9,7 @@
             <div class="text-6xl font-semibold text-white bg-blue-100 h-96 py-72">This isa text of tailwind</div>
         </main>
         <footer class="main-footer">
-            <p class="footer__copyright">&copy; All rights reserved | グリーンズ英会話</p>
+            <p class="footer__copyright">&copy; All rights reserve | グリーンズ英会話</p>
         </footer>
     </div>
     <!-- jQuery and plugins -->
