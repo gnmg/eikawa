@@ -9,14 +9,14 @@
             <section class="hero">
                 <div class="hero__wrapper">
                     <div class="hero__inner">
-                        <h1 class="hero__title  title">苦手な英語が</br>好きになる<span>！</span></h1>
+                        <h1 class="hero__title title">苦手な英語が</br>好きになる<span>！</span></h1>
                         <p class="hero__text">英会話スクールと英語塾が融合した新しい「英語教室」</br>目的に向かって確実に学べる英語教室です </br>好きな英語をもっと得意に！</p>
                     </div>
                 </div>
             </section>
             <a name="feature"></a>
             <section class="features">
-                <h2 class="features__title  title">英会話スクールと英語塾が融合した新しい「英語教室」</h2>
+                <h2 class="features__title title">英会話スクールと英語塾が融合した新しい「英語教室」</h2>
                 <ul class="features__list">
                     <li class="features__item">
                         <p class="features__slogan">バイリンガル講師</p>
@@ -38,8 +38,8 @@
                 </ul>
             </section>
             <section class="education">
-                <h2 class="education__title  title">2020年度からの英語教育</h2>
-                <p class="education__notice  education__notice_english">English Education in 2020</p>
+                <h2 class="education__title title">2020年度からの英語教育</h2>
+                <p class="education__notice education__notice_english">English Education in 2020</p>
                 <h3 class="education__subtitle">2020年の英語改革に向けて<br>グリーンズ英会話では全力でサポートします</h3>
                 <p class="education__name">英語教育が早期化、難易度も上昇！</p>
                 <ul class="education__features">
@@ -60,9 +60,9 @@
                 </div>
             </section>
             <section class="classes">
-                <h2 class="features__title  title">中学生・高校生クラス</h2>
+                <h2 class="features__title title">中学生・高校生クラス</h2>
                 <div class="class__inner ">
-                    <ul class="class__detail flex">
+                    <ul class="flex class__detail">
                         <li>
                             <h4>中学生少人数クラス</br>週に一回60分</h4>
                             <p>中学生クラスでは学年ごとにクラスを用意しています。中学１、２年生は学校の英語成績向上、テスト対策を、中学３年生は高校入試に向けた学習を中心にとりくみ、全学年通して英検受験にも力を入れています。また、2020年の英語改革に対応できるよう、「聴く」「読む」「話す」「書く」の４技能をバランスよく取り入れ、日本人講師の指導に加えて、ネイティブ講師による会話、リスニングの授業も取り入れています。
@@ -102,7 +102,7 @@
             <a name="teacher">
                 <section class="teachers">
             </a>
-            <h2 class="teachers__title  title">優秀な教師陣が サポートします</h2>
+            <h2 class="teachers__title title">優秀な教師陣が サポートします</h2>
             <p class="teachers__text">20年以上の講師歴のみならず、海外での豊富なキャリアを元に教師自身の経験から得た学習のコツをたくさん提供できるのがグリーンズ英語教室の強みです。</p>
             <ul class="teachers__list">
                 <li class="teachers__item">
@@ -128,7 +128,7 @@
                 </li>
             </ul>
             </section>
-            <?php include "includes/contact_form.php"; ?>
+            <?php include "includes/contact_form_2.php"; ?>
             <a name="map">
                 <section class="map">
             </a>
@@ -136,9 +136,9 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.196769333963!2d137.93392401564137!3d35.721378980185115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c8d4f30167cff%3A0x37915635b6bc51b8!2z44Kw44Oq44O844Oz44K66Iux5Lya6Kmx!5e0!3m2!1sen!2sjp!4v1519025799589"></iframe>
             </section>
             <!--<section class="teacher">-->
-            <!--  <h2 class="features__title  title">クラス一覧</h2>-->
+            <!--  <h2 class="features__title title">クラス一覧</h2>-->
             <!--  <div class="teacher__inner ">-->
-            <!--    <ul class="teacher__detail flex">-->
+            <!--    <ul class="flex teacher__detail">-->
             <!--      <li>-->
             <!--        <h4>中学生・高校生少人数クラス</h4>-->
             <!--        <p>中学生および高校生クラスでは各学年ごとにクラスを用意しています。学校の英語学習の成績向上、各テスト対策、高校入試準備および英検受験を目的とし、文法、読み、書き、リスニングそして会話に力をいれています。生徒の間違いは講師が訂正するのではなく、自身で間違いに気づき、訂正できる力を養うことにより、学習力を高めます。</p>-->
