@@ -3,7 +3,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="駒ヶ根英語塾、駒ヶ根英会話,　駒ヶ根英語学校, 駒ヶ根英語教室, TOEIC" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="Description" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="pragma" content="no-cache" />
 	<title>駒ヶ根英語学校、英語塾</title>
 	<!-- Woff2 fonts preload -->
 	<link rel="preload" href="fonts/noto-sans-jp-v24-latin-300.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -12,10 +13,10 @@
 	<link rel="preload" href="fonts/noto-sans-jp-v24-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 	<!-- Style files -->
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/tailwind.css">
+  <link rel="stylesheet" href="css/style-new.css">
 	<!-- Style file for validation tooltip -->
-	<link rel="stylesheet" href="css/validationEngine.css">
+  <link rel="stylesheet" href="css/validationEngine.css">
+  
 
 	<!-- Google recaptcha-->
 	<script src="https://www.google.com/recaptcha/api.js?render=6LfpmwgaAAAAABUbmR-qxC24rUnzdyKoVZ2gcgKX"></script>
