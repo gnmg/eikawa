@@ -424,13 +424,12 @@ h3.title {
     margin: 0 auto;
 }
 
-
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .contents .inner {
         width: auto;
         padding: 10px 20px;
     }
-} */
+}
 
 
 /* h2.contents {
@@ -616,6 +615,11 @@ a.adult-list:hover {
     margin-right: auto;
     margin-bottom: 125px;
     background-color: #f4f4f4;
+}
+
+.hero-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 

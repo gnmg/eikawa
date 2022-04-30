@@ -7,53 +7,31 @@
         <?php include "includes/nav.php"; ?>
         <main class="main-content">
             <section class="hero">
-                <img src="img/top-banner4.png" alt="">
+                <div class="hero-wrapper"><img src="img/top-banner4.png" alt=""></div>
+
             </section>
             <div class="contents">
                 <div class="inner">
                     <section>
-                        
-                        <article>
-                            <h2 class="contents">grdsfjsdlafjl</h2>
-                            <div class="course-list">
-                                <a href="index.php" class="preschool-list course-list-padding">
-                                    <p>Preschool</p>
-                                    <p>小児</p>
-                                </a>
-                                <a href="index.php" class="elementary-list course-list-padding">
-                                    <p>Elementary</p>
-                                    <p>小学生</p>
-                                </a>
-                                <a href="index.php" class="junior_high-list course-list-padding">
-                                    <p>Junior High</p>
-                                    <p>中学性</p>
-                                </a>
-                                <a href="index.php" class="high_school-list course-list-padding">
-                                    <p>High School</p>
-                                    <p>高個性</p>
-                                </a>
-                                <a href="index.php" class="adult-list course-list-padding">
-                                    <p>Adult</p>
-                                    <p>大人</p>
-                                </a>
+                        <article class="article-margin">
+                            <div class="preschool-title title-margin">
+                                About Green's Englsih School
                             </div>
-                        </article>
-                        <article>
-                            <h2 class="contents">grdsfjsdlafjl</h2>
+                            <!-- <h2 class="contents">grdsfjsdlafjl</h2> -->
                             <div class="about">
-                                <div class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
-                                    eligendi vero
-                                    nam, in est nisi praesentium aut nemo earum voluptates odio at dolorum aliquid sit
-                                    debitis
-                                    architecto sequi aliquam obcaecati tenetur cumque alias minus rerum tempora
-                                    blanditiis!
-                                    Doloribus laborum voluptates nobis. Enim, vero! Culpa, voluptates deleniti
-                                    praesentium sed
-                                    blanditiis aut.</div>
+                                <div class="about-text">
+                                    学校教育の中で求められる英語習熟レベルの難易度が大幅に上昇すると言われています。これまでの英語教育から得られた日本人の英語力は、残念ながらあまり高くありません。今までの学校での英語指導の中心であった訳読、和文英訳や文法指導を改め、英語でコミュニケーションを取るための学習がこれからの主流となります。
+
+                                    覚えるべき単語数は中学、高校ともに約2倍になり中学で約2500語、高校で5000語になります。英検レベルでは高校卒業時に英検2級レベルが一般的に求められると言われています。（現在は準２レベル相当）
+
+                                    特に、今まで中高学校であまり力を入れていなかった「話す」力では「やりとり・ディベート力」と「発表・プレゼンテーション」が加わり話すことの重要性が問われています。これら4技能の力を養うために『学習塾』だけ、『英会話教室』だけではできないトータル『英語学習』をグリーンズ英語教室では提供いたします。
+                                </div>
                                 <div class="about-photo"><img src="img/naomi-ralph-portrait.jpg" alt=""
                                         class="responsive"></div>
                             </div>
                         </article>
+
+
                         <section class="teachers">
                             </a>
                             <h2>優秀な教師陣が サポートします</h2>
@@ -62,7 +40,7 @@
                             <ul class="teachers__list">
                                 <li class="teachers__item">
                                     <div class="teachers__img-area">
-                                        <img class="teachers__img" src="img/teacher-1.png" alt="小野 先生">
+                                        <img class="teachers__img" src="img/teacher-1.png">
                                     </div>
                                     <div class="teachers__details">
                                         <p class="teachers__detail"><span>名前：</span>グリーンなおみ</p>
@@ -73,7 +51,7 @@
                                 </li>
                                 <li class="teachers__item">
                                     <div class="teachers__img-area">
-                                        <img class="teachers__img " src="img/teacher-2.png" alt="松本 先生">
+                                        <img class="teachers__img " src="img/teacher-2.png">
                                     </div>
                                     <div class="teachers__details">
                                         <p class="teachers__detail"><span>名前：</span>グリーンラルフ</p>
@@ -84,14 +62,15 @@
                             </ul>
                         </section>
                         <?php include "includes/contact_form_2.php"; ?>
-                        
+
                     </section>
-                    
-                </div><section><iframe class="map__iframe" allowfullscreen frameborder="0"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.196769333963!2d137.93392401564137!3d35.721378980185115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c8d4f30167cff%3A0x37915635b6bc51b8!2z44Kw44Oq44O844Oz44K66Iux5Lya6Kmx!5e0!3m2!1sen!2sjp!4v1519025799589"></iframe>
-                        </section><footer class="main-footer">
-                        <p class="footer__copyright">&copy; All rights reserved | グリーンズ英会話</p>
-                    </footer>
+                </div>
+                <section><iframe class="map__iframe" allowfullscreen frameborder="0"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.196769333963!2d137.93392401564137!3d35.721378980185115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c8d4f30167cff%3A0x37915635b6bc51b8!2z44Kw44Oq44O844Oz44K66Iux5Lya6Kmx!5e0!3m2!1sen!2sjp!4v1519025799589"></iframe>
+                </section>
+                <footer class="main-footer">
+                    <p class="footer__copyright">&copy; All rights reserved | グリーンズ英会話</p>
+                </footer>
             </div>
         </main>
 
