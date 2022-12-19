@@ -13,14 +13,14 @@
 	<link rel="preload" href="fonts/noto-sans-jp-v24-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 	<!-- Style files -->
 	<link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-new.css">
 	<!-- Style file for validation tooltip -->
   <link rel="stylesheet" href="css/validationEngine.css">
   
 
 	<!-- Google recaptcha-->
-	<script src="https://www.google.com/recaptcha/api.js?render=6LfpmwgaAAAAABUbmR-qxC24rUnzdyKoVZ2gcgKX"></script>
-<script>
+	<!-- <script src="https://www.google.com/recaptcha/api.js?render=6LfpmwgaAAAAABUbmR-qxC24rUnzdyKoVZ2gcgKX"></script> -->
+<!-- <script>
     grecaptcha.ready(function() {
     // do request for recaptcha token
     // response is promise with passed token
@@ -30,7 +30,7 @@
             document.getElementById('g-recaptcha-response').value = token;
         });
     });
-</script>
+</script> -->
 
 
 

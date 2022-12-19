@@ -14,7 +14,7 @@
 					<!-- Navigation close btn - END -->
 					<!-- Navigation list - START -->
 					<ul class="navigation__list">
-						<li class="navigation__item"> <a class="navigation__link" href="#feature">特徴</a>
+						<li class="navigation__item"> <a class="navigation__link" href="#course">コース</a>
 						</li>
 						<li class="navigation__item"> <a class="navigation__link" href="#teacher">教師紹介</a>
 						</li>
@@ -38,9 +38,9 @@
 					</a>
 					<!-- Contacts phone link - END -->
 					<!-- Contacts email link - START -->
-					<a class="contacts__item contacts__item_email" href="#contact" title="Send us email">
+					<!-- <a class="contacts__item contacts__item_email" href="#contact" title="Send us email">
 						<img class="contacts__icon" src="img/icon-mail.png" alt="メール">
-					</a>
+					</a> -->
 					<!-- Contacts email link - END -->
 				</div>
 				<!-- Contacts - END -->

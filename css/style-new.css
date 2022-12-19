@@ -272,7 +272,7 @@ h3.title {
     width: 100%;
     min-height: 50px;
     font-size: 0;
-    background-color: #006baa;
+    background-color: #ffde00;
     border: 0;
     cursor: pointer;
 }
@@ -289,7 +289,7 @@ h3.title {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
 .navigation__btn span {
@@ -420,16 +420,18 @@ h3.title {
 }
 
 .contents .inner {
-    width: 918px;
+    width: 75%;
     margin: 0 auto;
+    max-width: 950px;
 }
 
-@media screen and (max-width: 800px) {
+
+/* @media screen and (max-width: 800px) {
     .contents .inner {
-        width: auto;
+        width: 100%;
         padding: 10px 20px;
     }
-}
+} */
 
 
 /* h2.contents {
@@ -487,7 +489,7 @@ h2.contents {
 
 .about-text {
     width: 80%;
-    margin-right: 20px;
+    margin-right: 60px;
     text-align: justify;
 }
 
@@ -514,63 +516,69 @@ h2.contents {
 }
 
 .preschool-list {
-    border: 1px solid #d6a3a4;
-    color: #d6a3a4;
+    background-color: #d6a3a4;
+    color: #ffffff;
     text-align: center;
 }
 
 .elementary-list {
-    border: 1px solid #66CC99;
-    color: #66CC99;
+    background-color: #66CC99;
+    color: #ffffff;
     text-align: center;
 }
 
 .junior_high-list {
-    border: 1px solid #2E6DA4;
-    color: #2E6DA4;
+    background-color: #2E6DA4;
+    color: #ffffff;
     text-align: center;
 }
 
 .high_school-list {
-    border: 1px solid #343A40;
-    color: #343A40;
+    background-color: #343A40;
+    color: #ffffff;
     text-align: center;
 }
 
 .adult-list {
-    border: 1px solid #F2383B;
-    color: #F2383B;
+    background-color: #F2383B;
+    color: #ffffff;
     text-align: center;
 }
 
 a.preschool-list:hover {
     border: 1px solid #d6a3a4;
-    color: #fff;
-    background-color: #d6a3a4;
+    color: #d6a3a4;
+    background-color: #ffffff;
 }
 
 a.elementary-list:hover {
     border: 1px solid #66CC99;
-    color: #fff;
-    background-color: #66CC99;
+    color: #66CC99;
+    background-color: #ffffff;
 }
 
 a.junior_high-list:hover {
     border: 1px solid #2E6DA4;
-    color: #fff;
-    background-color: #2E6DA4;
+    color: #2E6DA4;
+    background-color: #ffffff;
 }
 
 a.high_school-list:hover {
     border: 1px solid #343A40;
-    color: #fff;
-    background-color: #343A40;
+    color: #343A40;
+    background-color: #ffffff;
 }
 
 a.adult-list:hover {
     border: 1px solid #F2383B;
-    color: #fff;
-    background-color: #F2383B;
+    color: #F2383B;
+    background-color: #ffffff;
+}
+
+.sub-head {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 600px) {
@@ -592,10 +600,33 @@ a.adult-list:hover {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+    .course-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .about-text {
+        width: 100%;
+        text-align: justify;
+    }
+    .about-photo {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
 }
 
 .article-margin {
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
+    margin-bottom: clamp(100px, 5vh, 200px);
 }
 
 
@@ -615,6 +646,7 @@ a.adult-list:hover {
     margin-right: auto;
     margin-bottom: 125px;
     background-color: #f4f4f4;
+    margin-bottom: clamp(10px, 5vh, 40px);
 }
 
 .hero-wrapper {
@@ -1314,6 +1346,7 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px #d6a3a4;
     padding-bottom: 15px;
+    margin-top: 200px;
 }
 
 .elementary-title {
@@ -1328,6 +1361,7 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px #66CC99;
     padding-bottom: 15px;
+    margin-top: 200px;
 }
 
 .junior-high-title {
@@ -1342,6 +1376,7 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px #2E6DA4;
     padding-bottom: 15px;
+    margin-top: 200px;
 }
 
 .high-school-title {
@@ -1356,6 +1391,7 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px #343A40;
     padding-bottom: 15px;
+    margin-top: 200px;
 }
 
 .adult-title {
@@ -1370,10 +1406,17 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px #F2383B;
     padding-bottom: 15px;
+    margin-top: 200px;
 }
 
 .class-text {
     margin-top: 40px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.article-inner {
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -1390,11 +1433,30 @@ h3.title {
 .table__tit {
     font-family: "Noto Sans JP", sans-serif;
     font-size: 24px;
-    font-size: 2.4rem;
     line-height: 40px;
     letter-spacing: .04em;
     font-weight: bold;
     padding-bottom: 14px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
 }
 
 
@@ -1465,7 +1527,6 @@ h3.title {
     position: relative;
     overflow-x: auto;
     overflow-y: hidden;
-    width: 500px;
 }
 
 .rtable--flip tr {
@@ -1489,4 +1550,13 @@ h3.title {
 .rtable--flip th:not(:last-child),
 .rtable--flip td:not(:last-child) {
     border-bottom: 0;
+}
+
+table,
+thead,
+tbody,
+th,
+td,
+tr {
+    display: block;
 }
