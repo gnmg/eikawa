@@ -3,7 +3,7 @@
 <?php include "includes/header2.php"; ?>
 
 <body>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <div class="wrapper">
         <?php include "includes/nav-2.php"; ?>
         <main class="main-content">
@@ -29,19 +29,19 @@
                             </div>
 
                         </article>
-                        <article class="article-margin" >
+                        <article class="article-margin">
                             <div class="preschool-title title-margin" id="course">
                                 選べるコース
                             </div>
                             <div class="article-inner">
                                 <div class="course-list">
                                     <a href="#preschool" class="preschool-list course-list-padding">
-                                        <p>Preschool</p>
-                                        <p>小児</p>
+                                        <p>Lower Grade</p>
+                                        <p>低学年</p>
                                     </a>
                                     <a href="#elementary" class="elementary-list course-list-padding">
-                                        <p>Elementary</p>
-                                        <p>小学生</p>
+                                        <p>Higher Grade</p>
+                                        <p>中・高学年</p>
                                     </a>
                                     <a href="#junior-high" class="junior_high-list course-list-padding">
                                         <p>Junior High</p>
@@ -50,6 +50,10 @@
                                     <a href="#highschool" class="high_school-list course-list-padding">
                                         <p>High School</p>
                                         <p>高個性</p>
+                                    </a>
+                                    <a href="#private" class="private-list course-list-padding">
+                                        <p>Private</p>
+                                        <p>個人中高生</p>
                                     </a>
                                     <a href="#adult" class="adult-list course-list-padding">
                                         <p>Adult</p>
@@ -61,19 +65,34 @@
                         <a name="preschool"></a>
                         <article class="article-margin">
                             <div class="preschool-title title-margin">
-                                低学年クラス
+                                低学年クラス<br>
+                                <div class="preschool-subtitle">（年長・小１・小２対象）</div>
                             </div>
                             <div class="article-inner">
                                 <ul>
-                                    <li>Fun interactive class</li>
-                                    <li>Fun interactive class</li>
-                                    <li>Fun interactive class</li>
-                                    <li>Fun interactive class</li>
+                                    <li>楽しいインタラクティブなクラス</li>
+                                    <li>ネイティブのバイリンガル講師が担当</li>
+                                    <li>日本語での説明もいたします。お子様に安心して参加いただけます。</li>
+                                    <li>専任講師が担当。毎回講師が変わる心配はありません。</li>
                                 </ul>
                                 <div class="class-text">
-                                    学校教育の中で求められる英語習熟レベルの難易度が大幅に上昇すると言われています。これまでの英語教育から得られた日本人の英語力は、残念ながらあまり高くありません。今までの学校での英語指導の中心であった訳読、和文英訳や文法指導を改め、英語でコミュニケーションを取るための学習がこれからの主流となります。
+                                    <p> 英語ネイティブの講師がすべてのクラスを担当します。日本語での説明も交え、英語が初めてのお子様が質の高い学びを得られるレッスンをいたします。</p>
 
-                                    覚えるべき単語数は中学、高校ともに約2倍になり中学で約2500語、高校で5000語になります。英検レベルでは高校卒業時に英検2級レベルが一般的に求められると言われています。（現在は準２レベル相当）
+                                    <p> 幼少期の英語学習においては、教えられた言葉を繰り返して言ったり、覚えたりできても、何を言っているのか意味を理解していない、という状態が起こりがちです。私たちのレッスンでは、お子様は、英語を聞いたり、話したりして、ほとんどの時間を過ごしますが、講師に教えられたことをお子様に日本語で説明してもらうことにより、お子様が理解できていることを確認し、お子様の学びを確実なものにするよう取り組んでいます。
+                                    </p>
+
+                                    <p>レッスンは、主にカードを使ったアクティビティを行い、英語のフレーズの単なる暗記ではなく、基本的な英語の文章を組み立てられるようになることを目標としています。このクラスでは、話すことと聞くことに重点を置いていますが、アルファベット、フォニックス、読み書きへの導入もいたします。
+                                    </p>
+
+                                    <p> 以下は、カードを使ったレッスンの進め方です。</p>
+
+                                    <p>
+                                        まず、文の一部分から始めて、全文まで学習します。お子様は、部分を学んだ後、カードに従って簡単に文章を変えることができます。
+                                        例えば、まず、He is, she is, they are, I amの練習をします。その後、He is a pilot. She is a teacher.
+                                        と文章にしていきます。そして最後に、He is a happy pilot. She is a cold teacher.
+                                        のように、文章に形容詞を組み合わせます。
+                                    </p>
+
 
                                 </div>
                                 <div class="lesson"><img src="img\preschool-lesson.png" alt="">
@@ -94,24 +113,39 @@
                                             <td>6,600円</td>
                                             <td>無料</td>
                                             <td>50分</td>
-                                            <td>５人</td>
+                                            <td>5人</td>
                                             <td>バイリンガル/ネイティブ講師</td>
                                         </tr>
 
                                     </tbody>
                                 </table>
+                                <?php include "includes/free-trial.php"; ?>
                             </div>
                         </article>
                         <a name="elementary"></a>
                         <article class="article-margin">
                             <div class="elementary-title title-margin">
-                                小学生コース
+                                小学校　中・高学年クラス
+                                <br>
+                                <div class="elementary-subtitle">（小3年～6年生対象）</div>
                             </div>
                             <div class="article-inner">
+                                <ul>
+                                    <li>楽しいインタラクティブなクラス</li>
+                                    <li>ネイティブのバイリンガル講師が担当</li>
+                                    <li>日本語での説明もいたします。お子様に安心して参加いただけます。</li>
+                                </ul>
                                 <div class="class-text">
-                                    学校教育の中で求められる英語習熟レベルの難易度が大幅に上昇すると言われています。これまでの英語教育から得られた日本人の英語力は、残念ながらあまり高くありません。今までの学校での英語指導の中心であった訳読、和文英訳や文法指導を改め、英語でコミュニケーションを取るための学習がこれからの主流となります。
+                                    <p>中学に向けた準備はこれまで以上に重要です。英語のカリキュラムの変更に伴い、中学で学ぶ教材の量は約2倍になりました。小学校での学習だけでは、中学で良い成績をあげるのに十分ではありません。
+                                    </p>
+                                    <p>中学英語において、成績の良い生徒とそうでない生徒の差は、新カリキュラムが始まってからますます広がっています。中学校の先生方も、小学校での英語の授業は中学の準備として有効でないと訴えています。
+                                    </p>
+                                    <p>私たちの小学校中・高学年クラスのレッスンでは、日本語で考えなくても話せる、理解できることを目標に、話すこと、聞くことに重点を置いています。</p>
+                                    <p>文法、文の構造、日本語と英語の違いも教えます。日本語と英語は非常に異なる言語であり、その違いを学ぶことは、同じ間違いを繰り返さないために非常に有効です。</p>
+                                    <p>説明はすべて、英語ネイティブの講師が日本語で行いますので、お子様は安心して、より深く理解することができます。</p>
+
                                 </div>
-                                <div class="table__tit">低学年クラスの基本情報</div>
+                                <div class="table__tit">高学年クラスの基本情報</div>
                                 <table class="rtable rtable--flip">
                                     <thead>
                                         <tr>
@@ -127,56 +161,75 @@
                                             <td>6,600円</td>
                                             <td>無料</td>
                                             <td>50分</td>
-                                            <td>５人</td>
+                                            <td>5人</td>
                                             <td>バイリンガル/ネイティブ講師</td>
                                         </tr>
-
                                     </tbody>
                                 </table>
+                                <?php include "includes/free-trial.php"; ?>
                         </article>
                         <a name="junior-high"></a>
                         <article class="article-margin">
-                            <div class="junior-high-title title-margin">
-                                中学性コース
-                            </div>
                             <div class="article-inner">
-                                <div class="sub-head">juku Style</div>
-                                <div class="class-text">
-                                    学校教育の中で求められる英語習熟レベルの難易度が大幅に上昇すると言われています。これまでの英語教育から得られた日本人の英語力は、残念ながらあまり高くありません。今までの学校での英語指導の中心であった訳読、和文英訳や文法指導を改め、英語でコミュニケーションを取るための学習がこれからの主流となります。
+                                <div class="junior-high-title title-margin">
+                                    中学性クラス
                                 </div>
-                                <div class="table__tit">低学年クラスの基本情報</div>
-                                <table class="rtable rtable--flip">
-                                    <thead>
-                                        <tr>
-                                            <th>レッスン料</th>
-                                            <th>入会金</th>
-                                            <th>レッスン時間</th>
-                                            <th>レッスン人数</th>
-                                            <th>講師</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>6,600円</td>
-                                            <td>無料</td>
-                                            <td>50分</td>
-                                            <td>５人</td>
-                                            <td>バイリンガル/ネイティブ講師</td>
-                                        </tr>
+                                <div class="article-inner">
+                                    <ul>
+                                        <li>平均クラス人数3名</li>
+                                        <li>学年別クラス編成</li>
+                                        <li>テスト対策</li>
+                                        <li>英検対策</li>
+                                    </ul>
+                                    <div class="class-text">
+                                        <p>中学生クラスのレッスンは、お子様がテストで高得点を取れるようにするためのものです。新カリキュラムになってから、テスト点数を取ることが難しくなり、低得点の生徒が急増しています。そのため、お子様がついていけるよう、これまで以上に学校外での学習が必要です。
+                                        </p>
+                                        <p>私たちのレッスンは、講義形式ではありません。質問があるときだけ先生に聞くようなレッスンではなく、講師が、常に生徒と対話し、生徒が理解していることを確認しながら進めていきます。生徒は、講師から英文法や語彙に関する質問を投げかけられ、自ら説明することで、その内容をより深く身につけます。
+                                        </p>
 
-                                    </tbody>
-                                </table>
+                                    </div>
+                                    <div class="table__tit">中学校クラスの基本情報</div>
+                                    <table class="rtable rtable--flip">
+                                        <thead>
+                                            <tr>
+                                                <th>レッスン料</th>
+                                                <th>入会金</th>
+                                                <th>レッスン時間</th>
+                                                <th>レッスン人数</th>
+                                                <th>講師</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>7,700円</td>
+                                                <td>無料</td>
+                                                <td>60分</td>
+                                                <td>3人</td>
+                                                <td>日本人・ネイティブ講師</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <?php include "includes/free-trial.php"; ?>
                         </article>
                         <a name="highschool"></a>
                         <article class="article-margin">
                             <div class="high-school-title title-margin">
-                                高校生コース
+                                高校生クラス
+                                <br>
+                                <div class="high-school-subtitle">テストの点数アップと大学入試合格を目指す塾スタイルのクラスです。</div>
+                                
                             </div>
                             <div class="article-inner">
+                                <ul>
+                                    <li>平均クラス人数3名</li>
+                                    <li>学年別クラス編成</li>
+                                    <li>テスト対策</li>
+                                    <li>英検対策</li>
+                                </ul>
                                 <div class="class-text">
-                                    学校教育の中で求められる英語習熟レベルの難易度が大幅に上昇すると言われています。これまでの英語教育から得られた日本人の英語力は、残念ながらあまり高くありません。今までの学校での英語指導の中心であった訳読、和文英訳や文法指導を改め、英語でコミュニケーションを取るための学習がこれからの主流となります。
+                                    私たちのレッスンは、講義形式ではありません。質問があるときだけ先生に聞くようなレッスンではなく、講師が、常に生徒と対話し、生徒が理解していることを確認しながら進めていきます。生徒は、講師から英文法や語彙に関する質問を投げかけられ、自ら説明することで、その内容をより深く身につけます。
                                 </div>
-                                <div class="table__tit">低学年クラスの基本情報</div>
+                                <div class="table__tit">高校生クラスの基本情報</div>
                                 <table class="rtable rtable--flip">
                                     <thead>
                                         <tr>
@@ -189,24 +242,83 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>6,600円</td>
+                                            <td>8,800円</td>
                                             <td>無料</td>
-                                            <td>50分</td>
-                                            <td>５人</td>
-                                            <td>バイリンガル/ネイティブ講師</td>
+                                            <td>60分</td>
+                                            <td>3人</td>
+                                            <td>日本人・ネイティブ講師</td>
                                         </tr>
-
                                     </tbody>
                                 </table>
+                                <?php include "includes/free-trial.php"; ?>
                         </article>
+                        <a name="private"></a>
+                        <article class="article-margin">
+                            <div class="private-title title-margin">
+                                中学生・高校生
+                                <br>
+                                <div class="private-subtitle">プライベート英会話クラス</div>
+                                
+                            </div>
+                            <div class="article-inner">
+                                <ul>
+                                    <li>風越高校のような英語力の必要な学校に進学したい方</li>
+                                    <li>海外留学を考えている方</li>
+                                    <li>大学で英語を勉強する予定のある方</li>
+                                </ul>
+                                <div class="class-text">
+                                    <p>中学生・高校生英会話クラスは、将来英語を使う方だけでなく、もっと成績を上げたい、英検に合格したい、大学受験に合格したい、という方にも最適です。</p>
+                                    <p>将来英語を使いたい、勉強したいというわけではなくても、大学入試に合格するためには英語力をつけることが大切で、英会話はそのための最良の方法の一つです。</p>
+                                    <p>私たちの英会話クラスは、20年以上の指導経験を持つ、日本語を話す英語ネイティブスピーカーが担当します。レッスンのほとんどは英語で行われますが、必要に応じて日本語での説明も行われます。
+                                    </p>
+                                    <p>日本語で考えずに、英語を話せるようになることが目標です。生徒にもよりますが、1年後には、基本的な英会話が理解でき、コミュニケーションが取れるようになります。
+                                    </p>
+                                </div>
+                                <div class="table__tit">プライベートクラスの基本情報</div>
+                                <table class="rtable rtable--flip">
+                                    <thead>
+                                        <tr>
+                                            <th>レッスン料</th>
+                                            <th>入会金</th>
+                                            <th>レッスン時間</th>
+                                            <th>レッスン人数</th>
+                                            <th>講師</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>16,500円</td>
+                                            <td>無料</td>
+                                            <td>60分</td>
+                                            <td>1人</td>
+                                            <td>バイリンガル/ネイティブ講師</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <?php include "includes/free-trial.php"; ?>
+
+                        </article>
+
                         <a name="adult"></a>
                         <article class="article-margin">
                             <div class="adult-title title-margin">
-                                大人コース
+                                大人プライベート英会話クラス
                             </div>
                             <div class="article-inner">
+                                <ul>
+                                    <li>趣味や将来の仕事のために学びたい主婦の方</li>
+                                    <li>学校や塾で英語を教えている方で、英語力を向上させたい方</li>
+                                    <li>新しいことを学んで脳を活性化させたいシニアの方</li>
+                                </ul>
                                 <div class="class-text">
-                                    学校教育の中で求められる英語習熟レベルの難易度が大幅に上昇すると言われています。これまでの英語教育から得られた日本人の英語力は、残念ながらあまり高くありません。今までの学校での英語指導の中心であった訳読、和文英訳や文法指導を改め、英語でコミュニケーションを取るための学習がこれからの主流となります。
+                                    <p>日本語も話せる英語ネイティブ講師が担当します。必要な時に日本語で講師とコミュニケーションが取れるので、安心して英語を学べます。</p>
+                                    <p>レッスン中は英語のみを使用する方針の英会話スクールもありますが、説明が難しい事柄を身振り手振りで伝えようと時間を浪費することになります。そして、そのようなコミュニケーションでは学習者が理解できていないことが多いのです。私たちは、学習者の母国語で学習者が理解できる説明を提供し、誤解がないようにすることがとても重要だと感じています。</p>
+                                    <p>初級・中級の方には、一般的な日常会話をベースにレッスンを進めていきます。英語の慣用句は、特別に必要となさらない限り教えません。慣用句は通常、丸暗記が必要であり、これは難しいことです。
+                                    </p>
+                                    <p>このクラスは文法クラスではありませんが、文法事項はレッスンの中心となります。文法事項を学ぶことで、暗記したフレーズを使うだけでなく、状況に応じて様々な文章を作ることができるようになります。
+                                    </p>
+                                    <p>上級クラスは、受講者様のニーズに合わせてレッスンを行います。レッスン内容は、フリートーク、様々なテーマのニュース記事を聞いてディスカッション、日本語から英語への翻訳、様々なビジネスコミュニケーションの練習など、多岐にわたります。
+                                    </p>
                                 </div>
                                 <div class="table__tit">低学年クラスの基本情報</div>
                                 <table class="rtable rtable--flip">
@@ -221,15 +333,15 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>6,600円</td>
+                                            <td>16,500円</td>
                                             <td>無料</td>
-                                            <td>50分</td>
-                                            <td>５人</td>
+                                            <td>60分</td>
+                                            <td>1人</td>
                                             <td>バイリンガル/ネイティブ講師</td>
                                         </tr>
-
                                     </tbody>
                                 </table>
+                                <?php include "includes/free-trial.php"; ?>
 
                         </article>
 
@@ -274,7 +386,7 @@
                 </footer>
             </div>
         </main>
-        
+
     </div>
     <script src="faq-template-master/assets/js/main.js"></script>
     <script src="faq-template-master/assets/js/util.js"></script>
@@ -297,26 +409,26 @@
     gtag('config', 'UA-806156-14');
     </script>
     <script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+        scrollFunction()
+    };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
 </body>
-
-</html>
