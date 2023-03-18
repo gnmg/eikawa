@@ -5,7 +5,7 @@ deployment:
         - /bin/cp -r * $DEPLOYPATH
 
 
-        # deployment:
-        #   tasks:
-        #     - export DEPLOYPATH=/home/greeneseikaiwa/public_html/  # Add /<app_folder> if required
-        #     - /bin/cp -r * $DEPLOYPATH
+         deployment:
+           tasks:
+             - export DEPLOYPATH=/home/greeneseikaiwa/public_html/  # Add /<app_folder> if required
+             - /bin/cp -r * $DEPLOYPATH
