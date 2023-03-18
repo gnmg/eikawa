@@ -15,7 +15,7 @@
                     <section>
                         <article class="article-margin">
                             <div class="preschool-title title-margin">
-                                Green's English School について
+                                Greene's English School について
                             </div>
                             <div class="article-inner">
                                 <!-- <h2 class="contents">grdsfjsdlafjl</h2> -->
@@ -37,11 +37,11 @@
                                 <div class="course-list">
                                     <a href="#preschool" class="preschool-list course-list-padding">
                                         <p>Lower Grade</p>
-                                        <p>低学年</p>
+                                        <p>年長 - 小２</p>
                                     </a>
                                     <a href="#elementary" class="elementary-list course-list-padding">
                                         <p>Higher Grade</p>
-                                        <p>中・高学年</p>
+                                        <p>小３－小６</p>
                                     </a>
                                     <a href="#junior-high" class="junior_high-list course-list-padding">
                                         <p>Junior High</p>
@@ -49,7 +49,7 @@
                                     </a>
                                     <a href="#highschool" class="high_school-list course-list-padding">
                                         <p>High School</p>
-                                        <p>高個性</p>
+                                        <p>高校性</p>
                                     </a>
                                     <a href="#private" class="private-list course-list-padding">
                                         <p>Private</p>
@@ -188,7 +188,7 @@
                                         </p>
 
                                     </div>
-                                    <div class="table__tit">中学校クラスの基本情報</div>
+                                    <div class="table__tit">中学生クラスの基本情報</div>
                                     <table class="rtable rtable--flip">
                                         <thead>
                                             <tr>
@@ -320,7 +320,7 @@
                                     <p>上級クラスは、受講者様のニーズに合わせてレッスンを行います。レッスン内容は、フリートーク、様々なテーマのニュース記事を聞いてディスカッション、日本語から英語への翻訳、様々なビジネスコミュニケーションの練習など、多岐にわたります。
                                     </p>
                                 </div>
-                                <div class="table__tit">低学年クラスの基本情報</div>
+                                <div class="table__tit">大人プライベートクラスの基本情報</div>
                                 <table class="rtable rtable--flip">
                                     <thead>
                                         <tr>
@@ -358,9 +358,11 @@
                                         <p class="teachers__detail"><span>名前：</span>グリーンなおみ</p>
                                         <p class="teachers__detail"><span>大学名：</span> 関西外国語大学</p>
                                         <p class="teachers__detail"><span>出身：</span>駒ヶ根市（ハワイ居住歴12年海外経験豊富）</p>
-                                        <p class="teachers__detail"><span>職歴：</span>North West航空、シェラトンホテル、通訳</p>
+                                        <p class="teachers__detail"><span>職歴：</span>North West航空、映像字幕翻訳者、通訳</p>
                                     </div>
                                 </li>
+                            </ul>
+                            <ul class="teachers__list">
                                 <li class="teachers__item">
                                     <div class="teachers__img-area">
                                         <img class="teachers__img " src="img/teacher-2.png">

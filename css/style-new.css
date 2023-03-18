@@ -737,7 +737,7 @@ teachers__title::after {
 .teachers__list {
     margin: 0 auto;
     padding: 0;
-    max-width: 420px;
+    min-width: 580px;
     text-align: left;
     list-style: none;
 }
