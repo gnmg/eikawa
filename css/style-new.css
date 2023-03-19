@@ -657,7 +657,6 @@ a.adult-list:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 125px;
-    background-color: #f4f4f4;
     margin-bottom: clamp(10px, 5vh, 40px);
 }
 
@@ -737,7 +736,7 @@ teachers__title::after {
 .teachers__list {
     margin: 0 auto;
     padding: 0;
-    min-width: 580px;
+    max-width: 420px;
     text-align: left;
     list-style: none;
 }
@@ -1039,6 +1038,8 @@ teachers__title::after {
         text-align: center;
         padding: 10px;
         border: 2px solid #006baa;
+        font-size: clamp(1.6rem, 0.7153rem + 1.6368vw, 2.4rem);
+        line-height: 40px;
     }
     .free-trial__text {
         margin: 0 auto 50px;
@@ -1358,8 +1359,7 @@ h3.title {
 
 .preschool-title {
     display: block;
-    font-size: 28px;
-    font-size: 2.8rem;
+    font-size: clamp(1.6rem, 0.7153rem + 1.6368vw, 2.8rem);
     line-height: 40px;
     letter-spacing: .06em;
     font-weight: bold;
@@ -1368,12 +1368,12 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px #d6a3a4;
     padding-bottom: 15px;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .preschool-subtitle {
     display: block;
-    font-size: 2rem;
+    font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 2.8rem);
     line-height: 40px;
     letter-spacing: .06em;
     font-weight: bold;
@@ -1385,8 +1385,7 @@ h3.title {
 
 .elementary-title {
     display: block;
-    font-size: 28px;
-    font-size: 2.8rem;
+    font-size: clamp(1.6rem, 0.7153rem + 1.6368vw, 2.8rem);
     line-height: 40px;
     letter-spacing: .06em;
     font-weight: bold;
@@ -1395,12 +1394,12 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px #66CC99;
     padding-bottom: 15px;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .elementary-subtitle {
     display: block;
-    font-size: 2rem;
+    font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 2.8rem);
     line-height: 40px;
     letter-spacing: .06em;
     font-weight: bold;
@@ -1412,8 +1411,7 @@ h3.title {
 
 .junior-high-title {
     display: block;
-    font-size: 28px;
-    font-size: 2.8rem;
+    font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 2.8rem);
     line-height: 40px;
     letter-spacing: .06em;
     font-weight: bold;
@@ -1422,13 +1420,12 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px #2E6DA4;
     padding-bottom: 15px;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .high-school-title {
     display: block;
-    font-size: 28px;
-    font-size: 2.8rem;
+    font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 2.8rem);
     line-height: 40px;
     letter-spacing: .06em;
     font-weight: bold;
@@ -1437,12 +1434,12 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px #343A40;
     padding-bottom: 15px;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .high-school-subtitle {
     display: block;
-    font-size: 1.6rem;
+    font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 2.8rem);
     line-height: 40px;
     letter-spacing: .06em;
     font-weight: bold;
@@ -1454,8 +1451,7 @@ h3.title {
 
 .private-title {
     display: block;
-    font-size: 28px;
-    font-size: 2.8rem;
+    font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 2.8rem);
     line-height: 40px;
     letter-spacing: .06em;
     font-weight: bold;
@@ -1464,7 +1460,7 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px #F2383B;
     padding-bottom: 15px;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .private-subtitle {
@@ -1481,8 +1477,7 @@ h3.title {
 
 .adult-title {
     display: block;
-    font-size: 28px;
-    font-size: 2.8rem;
+    font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 2.8rem);
     line-height: 40px;
     letter-spacing: .06em;
     font-weight: bold;
@@ -1491,7 +1486,7 @@ h3.title {
     text-align: center;
     border-bottom: dotted 2px rgb(56, 214, 242);
     padding-bottom: 15px;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .class-text {
@@ -1517,7 +1512,7 @@ h3.title {
 
 .table__tit {
     font-family: "Noto Sans JP", sans-serif;
-    font-size: 24px;
+    font-size: clamp(1.2rem, 0.7153rem + 1.6368vw, 2.8rem);
     line-height: 40px;
     letter-spacing: .04em;
     font-weight: bold;
@@ -1644,4 +1639,15 @@ th,
 td,
 tr {
     display: block;
+}
+
+.free-trial__title {
+    margin-bottom: 30px;
+    color: #006baa;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #006baa;
+    font-size: clamp(1.0rem, 0.7153rem + 1.6368vw, 2.4rem);
+    line-height: 40px;
+    margin-top: 10px;
 }
