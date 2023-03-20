@@ -1,161 +1,404 @@
 <!DOCTYPE html>
 <html lang="ja">
-<?php include "includes/header.php"; ?>
+<?php include "includes/header2.php"; ?>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <div class="wrapper">
-        <?php include "includes/nav.php"; ?>
+        <?php include "includes/nav-2.php"; ?>
         <main class="main-content">
             <section class="hero">
-                <div class="hero__wrapper">
-                    <div class="hero__inner">
-                        <h1 class="hero__title title">苦手な英語が</br>好きになる<span>！</span></h1>
-                        <p class="hero__text">英会話スクールと英語塾が融合した新しい「英語教室」</br>目的に向かって確実に学べる英語教室です </br>好きな英語をもっと得意に！</p>
-                    </div>
+                <img src="img/top-banner4.png" alt="">
+            </section>
+            <div class="contents">
+                <div class="inner">
+                    <section>
+                        <article class="article-margin">
+                            <div class="preschool-title title-margin">
+                                Greene's English School について
+                            </div>
+                            <div class="article-inner">
+                                <!-- <h2 class="contents">grdsfjsdlafjl</h2> -->
+                                <div class="about">
+                                    <div class="about-text">
+                                        <p> 私の名前はラルフ・グリーンです。妻のナオミと一緒に、1998年にこの学校を始めました。開校以来、幼児から大人まで数百人の生徒が、英語学習の目標を達成するお手伝いをしてきました。私たちは自宅に2つの快適な教室を設け、英語教育を提供しています。</p>
+                                        <p>私たちは、フレンドリーで楽しい、リラックスした雰囲気の地域の家族経営学校で、生徒が目標を達成することを誇りに思っています。20年以上の経験を持つことで、生徒が英語学習で抱える問題やその理由を理解しています。また、バイリンガルであることが、日本語と英語の違いを理解する上で特別な視点を持っているということを意味しており、生徒が英語学習で抱える問題点を把握し、それに対する効果的な対策を提供することができます。</p>
+                                        <p>英語のニーズに関しては、お気軽にご相談ください。また、体験レッスンのご予約も承っております。</p>
+                                   
+
+
+
+
+                                    </div>
+                                    <div class="about-photo"><img src="img/naomi-ralph-portrait.jpg" alt=""
+                                            class="responsive"></div>
+                                </div>
+                            </div>
+
+                        </article>
+                        <article class="article-margin">
+                            <div class="preschool-title title-margin" id="course">
+                                選べるコース
+                            </div>
+                            <div class="article-inner">
+                                <div class="course-list">
+                                    <a href="#preschool" class="preschool-list course-list-padding">
+                                        <p>Lower Grade</p>
+                                        <p>年長 - 小２</p>
+                                    </a>
+                                    <a href="#elementary" class="elementary-list course-list-padding">
+                                        <p>Higher Grade</p>
+                                        <p>小３－小６</p>
+                                    </a>
+                                    <a href="#junior-high" class="junior_high-list course-list-padding">
+                                        <p>Junior High</p>
+                                        <p>中学性</p>
+                                    </a>
+                                    <a href="#highschool" class="high_school-list course-list-padding">
+                                        <p>High School</p>
+                                        <p>高校性</p>
+                                    </a>
+                                    <a href="#private" class="private-list course-list-padding">
+                                        <p>Private</p>
+                                        <p>個人中高生</p>
+                                    </a>
+                                    <a href="#adult" class="adult-list course-list-padding">
+                                        <p>Adult</p>
+                                        <p>大人</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <a name="preschool"></a>
+                        <article class="article-margin">
+                            <div class="preschool-title title-margin">
+                                低学年クラス<br>
+                                <div class="preschool-subtitle">（年長・小１・小２対象）</div>
+                            </div>
+                            <div class="article-inner">
+                                <ul>
+                                    <li>楽しいインタラクティブなクラス</li>
+                                    <li>ネイティブのバイリンガル講師が担当</li>
+                                    <li>日本語での説明もいたします。お子様に安心して参加いただけます。</li>
+                                    <li>専任講師が担当。毎回講師が変わる心配はありません。</li>
+                                </ul>
+                                <div class="class-text">
+                                    <p> 英語ネイティブの講師がすべてのクラスを担当します。日本語での説明も交え、英語が初めてのお子様が質の高い学びを得られるレッスンをいたします。</p>
+
+                                    <p> 幼少期の英語学習においては、教えられた言葉を繰り返して言ったり、覚えたりできても、何を言っているのか意味を理解していない、という状態が起こりがちです。私たちのレッスンでは、お子様は、英語を聞いたり、話したりして、ほとんどの時間を過ごしますが、講師に教えられたことをお子様に日本語で説明してもらうことにより、お子様が理解できていることを確認し、お子様の学びを確実なものにするよう取り組んでいます。
+                                    </p>
+
+                                    <p>レッスンは、主にカードを使ったアクティビティを行い、英語のフレーズの単なる暗記ではなく、基本的な英語の文章を組み立てられるようになることを目標としています。このクラスでは、話すことと聞くことに重点を置いていますが、アルファベット、フォニックス、読み書きへの導入もいたします。
+                                    </p>
+
+                                    <p> 以下は、カードを使ったレッスンの進め方です。</p>
+
+                                    <p>
+                                        まず、文の一部分から始めて、全文まで学習します。お子様は、部分を学んだ後、カードに従って簡単に文章を変えることができます。
+                                        例えば、まず、He is, she is, they are, I amの練習をします。その後、He is a pilot. She is a teacher.
+                                        と文章にしていきます。そして最後に、He is a happy pilot. She is a cold teacher.
+                                        のように、文章に形容詞を組み合わせます。
+                                    </p>
+
+
+                                </div>
+                                <div class="lesson"><img src="img\preschool-lesson.png" alt="">
+                                </div>
+                                <div class="table__tit">低学年クラスの基本情報</div>
+                                <table class="rtable rtable--flip">
+                                    <thead>
+                                        <tr>
+                                            <th>レッスン料</th>
+                                            <th>入会金</th>
+                                            <th>レッスン時間</th>
+                                            <th>レッスン人数</th>
+                                            <th>講師</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>6,600円</td>
+                                            <td>無料</td>
+                                            <td>50分</td>
+                                            <td>5人</td>
+                                            <td>バイリンガル/ネイティブ講師</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                                <?php include "includes/free-trial.php"; ?>
+                            </div>
+                        </article>
+                        <a name="elementary"></a>
+                        <article class="article-margin">
+                            <div class="elementary-title title-margin">
+                                小学校　中・高学年クラス
+                                <br>
+                                <div class="elementary-subtitle">（小3年～6年生対象）</div>
+                            </div>
+                            <div class="article-inner">
+                                <ul>
+                                    <li>楽しいインタラクティブなクラス</li>
+                                    <li>ネイティブのバイリンガル講師が担当</li>
+                                    <li>日本語での説明もいたします。お子様に安心して参加いただけます。</li>
+                                </ul>
+                                <div class="class-text">
+                                    <p>中学に向けた準備はこれまで以上に重要です。英語のカリキュラムの変更に伴い、中学で学ぶ教材の量は約2倍になりました。小学校での学習だけでは、中学で良い成績をあげるのに十分ではありません。
+                                    </p>
+                                    <p>中学英語において、成績の良い生徒とそうでない生徒の差は、新カリキュラムが始まってからますます広がっています。中学校の先生方も、小学校での英語の授業は中学の準備として有効でないと訴えています。
+                                    </p>
+                                    <p>私たちの小学校中・高学年クラスのレッスンでは、日本語で考えなくても話せる、理解できることを目標に、話すこと、聞くことに重点を置いています。</p>
+                                    <p>文法、文の構造、日本語と英語の違いも教えます。日本語と英語は非常に異なる言語であり、その違いを学ぶことは、同じ間違いを繰り返さないために非常に有効です。</p>
+                                    <p>説明はすべて、英語ネイティブの講師が日本語で行いますので、お子様は安心して、より深く理解することができます。</p>
+
+                                </div>
+                                <div class="table__tit">高学年クラスの基本情報</div>
+                                <table class="rtable rtable--flip">
+                                    <thead>
+                                        <tr>
+                                            <th>レッスン料</th>
+                                            <th>入会金</th>
+                                            <th>レッスン時間</th>
+                                            <th>レッスン人数</th>
+                                            <th>講師</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>6,600円</td>
+                                            <td>無料</td>
+                                            <td>50分</td>
+                                            <td>5人</td>
+                                            <td>バイリンガル/ネイティブ講師</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <?php include "includes/free-trial.php"; ?>
+                        </article>
+                        <a name="junior-high"></a>
+                        <article class="article-margin">
+                            <div class="article-inner">
+                                <div class="junior-high-title title-margin">
+                                    中学性クラス
+                                </div>
+                                <div class="article-inner">
+                                    <ul>
+                                        <li>平均クラス人数3名</li>
+                                        <li>学年別クラス編成</li>
+                                        <li>テスト対策</li>
+                                        <li>英検対策</li>
+                                    </ul>
+                                    <div class="class-text">
+                                        <p>中学生クラスのレッスンは、お子様がテストで高得点を取れるようにするためのものです。新カリキュラムになってから、テスト点数を取ることが難しくなり、低得点の生徒が急増しています。そのため、お子様がついていけるよう、これまで以上に学校外での学習が必要です。
+                                        </p>
+                                        <p>私たちのレッスンは、講義形式ではありません。質問があるときだけ先生に聞くようなレッスンではなく、講師が、常に生徒と対話し、生徒が理解していることを確認しながら進めていきます。生徒は、講師から英文法や語彙に関する質問を投げかけられ、自ら説明することで、その内容をより深く身につけます。
+                                        </p>
+
+                                    </div>
+                                    <div class="table__tit">中学生クラスの基本情報</div>
+                                    <table class="rtable rtable--flip">
+                                        <thead>
+                                            <tr>
+                                                <th>レッスン料</th>
+                                                <th>入会金</th>
+                                                <th>レッスン時間</th>
+                                                <th>レッスン人数</th>
+                                                <th>講師</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>7,700円</td>
+                                                <td>無料</td>
+                                                <td>60分</td>
+                                                <td>3人</td>
+                                                <td>日本人・ネイティブ講師</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <?php include "includes/free-trial.php"; ?>
+                        </article>
+                        <a name="highschool"></a>
+                        <article class="article-margin">
+                            <div class="high-school-title title-margin">
+                                高校生クラス
+                                <br>
+                                <div class="high-school-subtitle">テストの点数アップと大学入試合格を目指す塾スタイルのクラスです。</div>
+                                
+                            </div>
+                            <div class="article-inner">
+                                <ul>
+                                    <li>平均クラス人数3名</li>
+                                    <li>学年別クラス編成</li>
+                                    <li>テスト対策</li>
+                                    <li>英検対策</li>
+                                </ul>
+                                <div class="class-text">
+                                    私たちのレッスンは、講義形式ではありません。質問があるときだけ先生に聞くようなレッスンではなく、講師が、常に生徒と対話し、生徒が理解していることを確認しながら進めていきます。生徒は、講師から英文法や語彙に関する質問を投げかけられ、自ら説明することで、その内容をより深く身につけます。
+                                </div>
+                                <div class="table__tit">高校生クラスの基本情報</div>
+                                <table class="rtable rtable--flip">
+                                    <thead>
+                                        <tr>
+                                            <th>レッスン料</th>
+                                            <th>入会金</th>
+                                            <th>レッスン時間</th>
+                                            <th>レッスン人数</th>
+                                            <th>講師</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>8,800円</td>
+                                            <td>無料</td>
+                                            <td>60分</td>
+                                            <td>3人</td>
+                                            <td>日本人・ネイティブ講師</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <?php include "includes/free-trial.php"; ?>
+                        </article>
+                        <a name="private"></a>
+                        <article class="article-margin">
+                            <div class="private-title title-margin">
+                                中学生・高校生
+                                <br>
+                                <div class="private-subtitle">プライベート英会話クラス</div>
+                                
+                            </div>
+                            <div class="article-inner">
+                                <ul>
+                                    <li>風越高校のような英語力の必要な学校に進学したい方</li>
+                                    <li>海外留学を考えている方</li>
+                                    <li>大学で英語を勉強する予定のある方</li>
+                                </ul>
+                                <div class="class-text">
+                                    <p>中学生・高校生英会話クラスは、将来英語を使う方だけでなく、もっと成績を上げたい、英検に合格したい、大学受験に合格したい、という方にも最適です。</p>
+                                    <p>将来英語を使いたい、勉強したいというわけではなくても、大学入試に合格するためには英語力をつけることが大切で、英会話はそのための最良の方法の一つです。</p>
+                                    <p>私たちの英会話クラスは、20年以上の指導経験を持つ、日本語を話す英語ネイティブスピーカーが担当します。レッスンのほとんどは英語で行われますが、必要に応じて日本語での説明も行われます。
+                                    </p>
+                                    <p>日本語で考えずに、英語を話せるようになることが目標です。生徒にもよりますが、1年後には、基本的な英会話が理解でき、コミュニケーションが取れるようになります。
+                                    </p>
+                                </div>
+                                <div class="table__tit">プライベートクラスの基本情報</div>
+                                <table class="rtable rtable--flip">
+                                    <thead>
+                                        <tr>
+                                            <th>レッスン料</th>
+                                            <th>入会金</th>
+                                            <th>レッスン時間</th>
+                                            <th>レッスン人数</th>
+                                            <th>講師</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>16,500円</td>
+                                            <td>無料</td>
+                                            <td>60分</td>
+                                            <td>1人</td>
+                                            <td>バイリンガル/ネイティブ講師</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <?php include "includes/free-trial.php"; ?>
+
+                        </article>
+
+                        <a name="adult"></a>
+                        <article class="article-margin">
+                            <div class="adult-title title-margin">
+                                大人プライベート英会話クラス
+                            </div>
+                            <div class="article-inner">
+                                <ul>
+                                    <li>趣味や将来の仕事のために学びたい主婦の方</li>
+                                    <li>学校や塾で英語を教えている方で、英語力を向上させたい方</li>
+                                    <li>新しいことを学んで脳を活性化させたいシニアの方</li>
+                                </ul>
+                                <div class="class-text">
+                                    <p>日本語も話せる英語ネイティブ講師が担当します。必要な時に日本語で講師とコミュニケーションが取れるので、安心して英語を学べます。</p>
+                                    <p>レッスン中は英語のみを使用する方針の英会話スクールもありますが、説明が難しい事柄を身振り手振りで伝えようと時間を浪費することになります。そして、そのようなコミュニケーションでは学習者が理解できていないことが多いのです。私たちは、学習者の母国語で学習者が理解できる説明を提供し、誤解がないようにすることがとても重要だと感じています。</p>
+                                    <p>初級・中級の方には、一般的な日常会話をベースにレッスンを進めていきます。英語の慣用句は、特別に必要となさらない限り教えません。慣用句は通常、丸暗記が必要であり、これは難しいことです。
+                                    </p>
+                                    <p>このクラスは文法クラスではありませんが、文法事項はレッスンの中心となります。文法事項を学ぶことで、暗記したフレーズを使うだけでなく、状況に応じて様々な文章を作ることができるようになります。
+                                    </p>
+                                    <p>上級クラスは、受講者様のニーズに合わせてレッスンを行います。レッスン内容は、フリートーク、様々なテーマのニュース記事を聞いてディスカッション、日本語から英語への翻訳、様々なビジネスコミュニケーションの練習など、多岐にわたります。
+                                    </p>
+                                </div>
+                                <div class="table__tit">大人プライベートクラスの基本情報</div>
+                                <table class="rtable rtable--flip">
+                                    <thead>
+                                        <tr>
+                                            <th>レッスン料</th>
+                                            <th>入会金</th>
+                                            <th>レッスン時間</th>
+                                            <th>レッスン人数</th>
+                                            <th>講師</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>16,500円</td>
+                                            <td>無料</td>
+                                            <td>60分</td>
+                                            <td>1人</td>
+                                            <td>バイリンガル/ネイティブ講師</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <?php include "includes/free-trial.php"; ?>
+
+                        </article>
+
+                        <section id="teacher" class="teachers">
+                            <h2>優秀な教師陣が サポートします</h2>
+                            <p class="teachers__text">
+                                20年以上の講師歴のみならず、海外での豊富なキャリアを元に教師自身の経験から得た学習のコツをたくさん提供できるのがグリーンズ英語教室の強みです。</p>
+                            <ul class="teachers__list">
+                                <li class="teachers__item">
+                                    <div class="teachers__img-area">
+                                        <img class="teachers__img" src="img/teacher-1.png">
+                                    </div>
+                                    <div class="teachers__details">
+                                        <p class="teachers__detail"><span>名前：</span>グリーンなおみ</p>
+                                        <p class="teachers__detail"><span>大学名：</span> 関西外国語大学</p>
+                                        <p class="teachers__detail"><span>出身：</span>駒ヶ根市（ハワイ居住歴12年海外経験豊富）</p>
+                                        <p class="teachers__detail"><span>職歴：</span>North West航空、映像字幕翻訳者、通訳</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="teachers__list">
+                                <li class="teachers__item">
+                                    <div class="teachers__img-area">
+                                        <img class="teachers__img " src="img/teacher-2.png">
+                                    </div>
+                                    <div class="teachers__details">
+                                        <p class="teachers__detail"><span>名前：</span>グリーンラルフ</p>
+                                        <p class="teachers__detail"><span>大学名：</span>BYUハワイ</p>
+                                        <p class="teachers__detail"><span>出身：</span>カリフォルニア州サンディエゴ</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                        <?php include "includes/contact_form_2.php"; ?>
+
+                    </section>
+                    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
                 </div>
-            </section>
-            <a name="feature"></a>
-            <section class="features">
-                <h2 class="features__title title">英会話スクールと英語塾が融合した新しい「英語教室」</h2>
-                <ul class="features__list">
-                    <li class="features__item">
-                        <p class="features__slogan">バイリンガル講師</p>
-                        <p class="features__text">
-                            講師は両名ともに講師歴20年以上のバイリンガルです。長年の講師経験をいかし、日本人が間違いやすい文法や単語などをよく理解しそれらを踏まえた指導につなげます。会話重視の英会話教室と文法重視の塾の両方の利点を生かしたクラスを提供します。
-                        </p>
-                    </li>
-                    <li class="features__item">
-                        <p class="features__slogan">学習の仕方がわかる</p>
-                        <p class="features__text">
-                            理解できている事と不明な点を明確化し、わからないことを徹底的に「使える様になるまで」教えます。また一方的な指導ではなく、アウトプットを重視し各種テストのスコアアップのコツなど「使える英語」を身につけます。
-                        </p>
-                    </li>
-                    <li class="features__item">
-                        <p class="features__slogan">考え方が身に付く</p>
-                        <p>英語学習は単に単語やフレーズの暗記ではありません。「読み」「書き」「聞く」「話す」技能のにはそれぞれコツがあります。グリーンズ英語教室では「自分で考え問題を解決する力」、「英語で考える力」を養うクラスを提供します。
-                        </p>
-                    </li>
-                </ul>
-            </section>
-            <section class="education">
-                <h2 class="education__title title">2020年度からの英語教育</h2>
-                <p class="education__notice education__notice_english">English Education in 2020</p>
-                <h3 class="education__subtitle">2020年の英語改革に向けて<br>グリーンズ英会話では全力でサポートします</h3>
-                <p class="education__name">英語教育が早期化、難易度も上昇！</p>
-                <ul class="education__features">
-                    <li>中学・高校での授業が『英語で行われるようになる』</li>
-                    <li>高校英語では『ディスカッション・スピーチ・プレゼン』の導入</li>
-                    <li>大学入試では「書く」「話す」も加わり『4技能評価』の導入</li>
-                </ul>
-                <div class="education__text-area">
-                    <p>学校教育の中で求められる英語習熟レベルの難易度が大幅に上昇すると言われています。これまでの英語教育から得られた日本人の英語力は、残念ながらあまり高くありません。今までの学校での英語指導の中心であった訳読、和文英訳や文法指導を改め、英語でコミュニケーションを取るための学習がこれからの主流となります。
-                    </p>
-                    <p>覚えるべき単語数は中学、高校ともに約2倍になり中学で約2500語、高校で5000語になります。英検レベルでは高校卒業時に英検2級レベルが一般的に求められると言われています。（現在は準２レベル相当）
-                    </p>
-                    <p>特に、今まで中高学校であまり力を入れていなかった「話す」力では「やりとり・ディベート力」と「発表・プレゼンテーション」が加わり話すことの重要性が問われています。これら4技能の力を養うために『学習塾』だけ、『英会話教室』だけではできないトータル『英語学習』をグリーンズ英語教室では提供いたします。
-                    </p>
-                    <p>『学習塾』だけでは足りないもの…　会話、リスニング、ディベート、プレゼン力の強化
-                        <br>『英会話教室』だけでは足りないもの... 読解力、文法力、作文力</p>
-                    <p>グリーンズ英語教室では学習塾と英会話教室の両方のベネフィットを兼ね揃え、経験豊富なバイリンガル講師（アメリカ人講師、日本人講師）によって展開し全力ですサポートしていたします。</p>
-                </div>
-            </section>
-            <section class="classes">
-                <h2 class="features__title title">中学生・高校生クラス</h2>
-                <div class="class__inner ">
-                    <ul class="flex class__detail">
-                        <li>
-                            <h4>中学生少人数クラス</br>週に一回60分</h4>
-                            <p>中学生クラスでは学年ごとにクラスを用意しています。中学１、２年生は学校の英語成績向上、テスト対策を、中学３年生は高校入試に向けた学習を中心にとりくみ、全学年通して英検受験にも力を入れています。また、2020年の英語改革に対応できるよう、「聴く」「読む」「話す」「書く」の４技能をバランスよく取り入れ、日本人講師の指導に加えて、ネイティブ講師による会話、リスニングの授業も取り入れています。
-                            </p>
-                            <p class="prices__value">月々<span>7,350</span>円(税抜)</p>
-                        </li>
-                        <li>
-                            <h4>中学生プライベート英会話重視クラス</br>週に一回60分</h4>
-                            <p>英語・国際科への高校進学や大学進学をめざす中学生にお勧めです。語学習得にはアウトプット（発話量）が最も大切になります。十分な発話量が確保できないグループレッスンではご自身の努力に対してフラストレーションを感じることがあるかもしれません。
-                            </p>
-                            <p>貴重なレッスン時間内に自分の努力に見合ったアウトプット量をキープし、達成感や課題の発見を伴うレッスンを提供できるプライベートレッスンが適切です。</p>
-                            <p class="prices__value">月々<span>15,000</span>円(税抜)</p>
-                        </li>
-                        <li>
-                            <h4>高校生少人数クラス</br>週に一回60分
-                            </h4>
-                            <p>高校生クラスでは、高校別、学年別、目的別に少人数制クラスを用意しています。</p>
-                            <p>英会話力やディベート力を高めたい生徒にはネイティブ講師が通常の会話だけでなく、時事問題や興味のある話題の資料を提供し、読解力を高めるとともに会話を通してディベート力向上につなげます。
-                            </p>
-                            <p>日本人講師が大学受験を意識した文法、長文読解、リスニングなど受験に必須な観点からの技能を網羅する授業を提供します。文法学習や長文読解などにおいては学習の仕方のコツを教えながらポイントを押さえます。
-                            </p>
-                            <p>将来、航空業界、観光業界、通訳・翻訳など英語を生かした職業に就きたい高校生の皆さん、アメリカでこれらの業界全てにおいて実際職務経験のある講師が経験談まじえてレッスンするとともに、ネイティブ講師が会話・ディベート・プレゼンなどのレッスンを担当します。
-                            </p>
-                            <p class="prices__value">月々<span>7,850</span>円(税抜)</p>
-                        </li>
-                        <li>
-                            <h4>高校生プライベート英会話重視クラス</br>週に一回60分</h4>
-                            <p>英語・国際科への大学進学をめざす高校生や留学希望者などにお勧めです。語学習得にはアウトプット（発話量）が最も大切になります。十分な発話量が確保できないグループレッスンではご自身の努力に対してフラストレーションを感じることがあるかもしれません。
-                                <p>貴重なレッスン時間内に自分の努力に見合ったアウトプット量をキープし、達成感や課題の発見を伴うレッスンを提供できるプライベートレッスンが適切です。</p>
-                                <p class="prices__value">月々<span>15,000</span>円(税抜)</p>
-                                <p>※ 実積：過去合格大学名（東京大学、慶應義塾大学、上智大学、青山学院大学、立命館大学、法政大学、明治大学、横浜国立大学、國學院大学、信州大学、新潟大学など）</br> ※
-                                    小学生英検準２級、2級取得、中学生英検準２級、2級取得実績有り
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <a name="teacher">
-                <section class="teachers">
-            </a>
-            <h2 class="teachers__title title">優秀な教師陣が サポートします</h2>
-            <p class="teachers__text">20年以上の講師歴のみならず、海外での豊富なキャリアを元に教師自身の経験から得た学習のコツをたくさん提供できるのがグリーンズ英語教室の強みです。</p>
-            <ul class="teachers__list">
-                <li class="teachers__item">
-                    <div class="teachers__img-area">
-                        <img class="teachers__img" src="img/teacher-1.png" alt="小野 先生">
-                    </div>
-                    <div class="teachers__details">
-                        <p class="teachers__detail"><span>名前：</span>グリーンなおみ</p>
-                        <p class="teachers__detail"><span>大学名：</span> 関西外国語大学</p>
-                        <p class="teachers__detail"><span>出身：</span>駒ヶ根市（ハワイ居住歴12年海外経験豊富）</p>
-                        <p class="teachers__detail"><span>職歴：</span>North West航空、シェラトンホテル、通訳</p>
-                    </div>
-                </li>
-                <li class="teachers__item">
-                    <div class="teachers__img-area">
-                        <img class="teachers__img " src="img/teacher-2.png" alt="松本 先生">
-                    </div>
-                    <div class="teachers__details">
-                        <p class="teachers__detail"><span>名前：</span>グリーンラルフ</p>
-                        <p class="teachers__detail"><span>大学名：</span>BYUハワイ</p>
-                        <p class="teachers__detail"><span>出身：</span>カリフォルニア州サンディエゴ</p>
-                    </div>
-                </li>
-            </ul>
-            </section>
-            <?php include "includes/contact_form_2.php"; ?>
-            <a name="map">
-                <section class="map">
-            </a>
-            <iframe class="map__iframe" allowfullscreen frameborder="0"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.196769333963!2d137.93392401564137!3d35.721378980185115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c8d4f30167cff%3A0x37915635b6bc51b8!2z44Kw44Oq44O844Oz44K66Iux5Lya6Kmx!5e0!3m2!1sen!2sjp!4v1519025799589"></iframe>
-            </section>
-            <!--<section class="teacher">-->
-            <!--  <h2 class="features__title title">クラス一覧</h2>-->
-            <!--  <div class="teacher__inner ">-->
-            <!--    <ul class="flex teacher__detail">-->
-            <!--      <li>-->
-            <!--        <h4>中学生・高校生少人数クラス</h4>-->
-            <!--        <p>中学生および高校生クラスでは各学年ごとにクラスを用意しています。学校の英語学習の成績向上、各テスト対策、高校入試準備および英検受験を目的とし、文法、読み、書き、リスニングそして会話に力をいれています。生徒の間違いは講師が訂正するのではなく、自身で間違いに気づき、訂正できる力を養うことにより、学習力を高めます。</p>-->
-            <!--      </li>-->
-            <!--      <li>-->
-            <!--        <h4>小学校低学年クラス</h4>-->
-            <!--        <p>アメリカ人講師が担当するクラスです。基本的には英語で指導しますが、お子様のレベルや理解度に合わせて適切な量の日本語を使って説明を加えます。このクラスでは基礎レベルとしてベーシックな英語単語、文章、ストラクチャーなど英語に親しみ楽しめるクラスです。グリーンズ英会話独自のユニークなカードシステムを取りいれ、単語から自然と文章が組み立てられるようになります。</p>-->
-            <!--        <p>英語のみのクラスの場合、理解の確認が取れなかったり、勘違いしている場合も多く、限られた時間を最大限生かすためには適度な日本指導も必要だと考えています。</p>-->
-            <!--      </li>-->
-            <!--    </ul>-->
-            <!--  </div>-->
-            <!--</section>-->
+                <section><iframe class="map__iframe" allowfullscreen frameborder="0"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.196769333963!2d137.93392401564137!3d35.721378980185115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c8d4f30167cff%3A0x37915635b6bc51b8!2z44Kw44Oq44O844Oz44K66Iux5Lya6Kmx!5e0!3m2!1sen!2sjp!4v1519025799589"></iframe>
+                </section>
+                <footer class="main-footer">
+                    <p class="footer__copyright">&copy; All rights reserved | グリーンズ英会話</p>
+                </footer>
+            </div>
         </main>
-        <footer class="main-footer">
-            <p class="footer__copyright">&copy; All rights reserved | グリーンズ英会話</p>
-        </footer>
+
     </div>
+    <script src="faq-template-master/assets/js/main.js"></script>
+    <script src="faq-template-master/assets/js/util.js"></script>
     <!-- jQuery and plugins -->
     <script src="js/plugins/jquery/jquery-3.4.1.min.js"></script>
     <!-- jQuery form validation with JA translations -->
@@ -174,6 +417,27 @@
     gtag('js', new Date());
     gtag('config', 'UA-806156-14');
     </script>
-</body>
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
 
-</html>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
