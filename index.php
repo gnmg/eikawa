@@ -7,9 +7,14 @@
     <div class="wrapper">
         <?php include "includes/nav-2.php"; ?>
         <main class="main-content">
-            <section class="hero">
+        <div class="image-container hero">
+  <img src="img/top-banner4.png" alt="Desktop Image" class="desktop-image">
+  <img src="img/top-mobile-banner.png" alt="Mobile Image" class="mobile-image">
+</div>
+
+            <!-- <section class="hero">
                 <img src="img/top-banner4.png" alt="">
-            </section>
+            </section> -->
             <div class="contents">
                 <div class="inner">
                     <section>

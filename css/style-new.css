@@ -1651,3 +1651,30 @@ tr {
     line-height: 40px;
     margin-top: 10px;
 }
+
+.image-container {
+    max-width: 100%;
+}
+
+.image-container .desktop-image {
+    width: 100%;
+    height: auto;
+}
+
+.image-container .mobile-image {
+    display: none;
+}
+
+
+/* Media query for mobile screens */
+
+@media (max-width: 768px) {
+    .image-container .desktop-image {
+        display: none;
+    }
+    .image-container .mobile-image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
